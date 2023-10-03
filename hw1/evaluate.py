@@ -309,7 +309,7 @@ def run(data,
 
 def parse_opt():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data', type=str, default='data/waymococo.yaml', help='dataset.yaml path')
+    parser.add_argument('--data', type=str, default='data/waymococo_val.yaml', help='dataset.yaml path')
     parser.add_argument('--weights', nargs='+', type=str, default='runs/train/yolov5scoco15/weights/best.onnx', help='model.pt path(s)')
     parser.add_argument('--batch-size', type=int, default=32, help='batch size')
     parser.add_argument('--imgsz', '--img', '--img-size', type=int, default=640, help='inference size (pixels)')

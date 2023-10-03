@@ -644,7 +644,7 @@ class DetectMultiBackend(nn.Module):
     def _model_type(p='path/to/model.pt'):
         # Return model type from model path, i.e. path='path/to/model.onnx' -> type=onnx
         # types = [pt, jit, onnx, xml, engine, coreml, saved_model, pb, tflite, edgetpu, tfjs, paddle]
-        from opt import export_formats
+        from opt_export import export_formats
         from urllib.parse import urlparse
         sf = list(export_formats().Suffix)  # export suffixes
         
