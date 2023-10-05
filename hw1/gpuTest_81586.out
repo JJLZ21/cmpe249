@@ -1,0 +1,52 @@
+
+     active environment : cmpe249
+    active env location : /home/012218128/anaconda3/envs/cmpe249
+            shell level : 1
+       user config file : /home/012218128/.condarc
+ populated config files : 
+          conda version : 22.9.0
+    conda-build version : 3.18.8
+         python version : 3.7.3.final.0
+       virtual packages : __cuda=11.8=0
+                          __linux=3.10.0=0
+                          __glibc=2.17=0
+                          __unix=0=0
+                          __archspec=1=x86_64
+       base environment : /home/012218128/anaconda3  (writable)
+      conda av data dir : /home/012218128/anaconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /home/012218128/anaconda3/pkgs
+                          /home/012218128/.conda/pkgs
+       envs directories : /home/012218128/anaconda3/envs
+                          /home/012218128/.conda/envs
+               platform : linux-64
+             user-agent : conda/22.9.0 requests/2.28.1 CPython/3.7.3 Linux/3.10.0-957.27.2.el7.x86_64 centos/7.9.2009 glibc/2.17
+                UID:GID : 2472:100
+             netrc file : None
+           offline mode : False
+
+[34m[1mWeights & Biases: [0mrun 'pip install wandb' to automatically track and visualize YOLOv5 🚀 runs (RECOMMENDED)
+/data/cmpe249-fa23/waymotrain200cocoyolo/images_train.txt
+/data/cmpe249-fa23/waymotrain200cocoyolo/images_val.txt
+Plotting labels... 
+
+[34m[1mautoanchor: [0mAnalyzing anchors... anchors/target = 3.34, Best Possible Recall (BPR) = 0.9443. Attempting to improve anchors, please wait...
+[34m[1mautoanchor: [0mWARNING: Extremely small objects found. 90320 of 1576214 labels are < 3 pixels in size.
+[34m[1mautoanchor: [0mRunning kmeans for 9 anchors on 1573247 points...
+[34m[1mautoanchor: [0mthr=0.25: 0.9866 best possible recall, 3.49 anchors past thr
+[34m[1mautoanchor: [0mn=9, img_size=640, metric_all=0.244/0.651-mean/best, past_thr=0.464-mean: 9,6,  17,15,  21,41,  43,21,  81,42,  46,95,  166,76,  159,157,  456,153
+[34m[1mautoanchor: [0mthr=0.25: 0.9958 best possible recall, 4.14 anchors past thr
+[34m[1mautoanchor: [0mn=9, img_size=640, metric_all=0.281/0.695-mean/best, past_thr=0.471-mean: 5,4,  9,7,  18,11,  10,23,  32,20,  28,71,  60,34,  111,71,  310,138
+[34m[1mautoanchor: [0mNew anchors saved to model. Update model *.yaml to use these anchors in the future.
+
+disabled validation
+disabled validation
+disabled validation
+disabled validation
+disabled validation
+disabled validation
+disabled validation
